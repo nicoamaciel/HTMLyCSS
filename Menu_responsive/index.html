@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Menu responsive - HTML - CSS 3 - nicoamaciel</title>
+		<meta charset="utf-8">
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+		<script>
+			
+			$(document).ready(function(){
+				$('#menu-principal').prepend('<div id="menu-entrada">Menú</div>');
+				$('#menu-entrada').on('click', function(){
+					$("#menu").slideToggle();
+				});
+			});
+
+		</script>
+		
+	</head>
+
+
+	<body>
+		
+		<nav id="menu-principal">
+			<ul id="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+		<li>
+					<a href="#">Servicios</a>
+				<ul>
+					<li><a href="#">Diseño web</a>
+					<ul>
+						<li><a href="#">Html 5</a></li>
+						<li><a href="#">Css 3</a></li>
+						<li><a href="#">Javascript</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">Programacion Web</a>
+					<ul>
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">Python</a></li>
+						<li><a href="#">Ruby</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+			<li><a href="#">Hosting</a></li>
+			<li><a href="#">Dominios</a></li>	
+			<li><a href="#">Contactos</a></li>
+		</ul>	
+		</nav>
+	</body>
+	
+
+
+</html>
+	
