@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">    
+
+    <title>Plantilla Básica Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/estilos.css" rel="stylesheet">
+   
+  </head>
+
+  <body>
+
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4">col-xs-4</div> <!-- Ocupa cuatro elementos-->
+        <div class="col-xs-12 col-sm-12 col-md-4">col-xs-4</div>
+        <div class="col-xs-12 col-sm-12 col-md-4">col-xs-4</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-8">
+        </div> <!--Ocupa seis elementos -->
+        <div class="col-xs-12 col-sm-6 col-md-4">col-xs-6</div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 img2"> <!-- la tabla va ocupar todos las doce columnas dentro de la regilla que nos ofrece bootstrap -->
+
+          <table class="table table-bordered"> <!--Clase aplicada a la tabla (forma que toma desde bootstrap la tabla)-->
+            <tr>
+              <td>manzana</td>
+              <td>pera</td>
+              <td>naranja</td>
+              <td>pera</td>
+              <td>banana</td>
+              <td>mango</td>
+              <td>durazno</td>
+              <td>mandarina</td>
+            </tr>
+
+            <tr>
+              <td>tomate</td>
+              <td>cebolla</td>
+              <td>pepino</td>
+              <td>coliflor</td>
+              <td>palta</td>
+              <td>morron</td>
+              <td>laurel</td>
+              <td>ajo</td>
+            </tr>
+          </table>
+
+          <button class="btn btn-primary" type="submit">Button</button> <!--Agregado de boton ver mas opciones en bootstrap -->
+          <br />
+          <br />
+
+          <img src="imagenes/stltPintado.jpg" class="img-circle" width="300" height="300"> <!--Redondear imagen ajustando ancho y alto --> 
+        </div> 
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <script src="js/bootstrap.js"></script>
+   
+  </body>
+</html>
