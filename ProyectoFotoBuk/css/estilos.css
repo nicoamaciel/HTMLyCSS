@@ -1,0 +1,92 @@
+body{
+  padding-top: 50px;
+}
+
+section{
+  padding: 40px 0 40px 0;
+}
+
+p{
+  text-align: justify; /*Justificar texto*/
+}
+
+.jumbotron{
+  background: #1b222a url("../imagenes/header.jpg") no-repeat top center; /*Cambia color,inserta imagen de fondo en patalla y no se repite*/
+  color: #fff;
+  height: 598px;
+  overflow: none; 
+}
+
+.jumbotron h1{
+  margin-top: 60px;
+  font-size: 38px;
+}
+
+.jumbotron p{
+  margin-bottom: 60px;
+}
+
+.jumbotron img{
+  width: 70%;
+  margin-right: 30px;
+}
+
+.jumbotron header{
+  width: 75%;
+}
+
+
+.buk-text{ /*Cambiar color de nombrecito de la izquierda*/
+  color: #134290 !important; 
+}
+
+.demo{
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+
+section#caracteristicas{
+  background: #37befe;
+  padding: 40px;
+  overflow: auto;
+  color: #fff;
+}
+
+section#caracteristicas ul li{
+  font-size: 22px;
+  list-style: none;
+  line-height: 2.0em; /*Medida relativa*/
+  padding-left: 5px;
+}
+
+footer{
+  background: #333;
+  color: #fff;
+  padding: 30px 0 20px 0;
+}
+
+footer li{
+  float: left;
+  list-style: none;
+  padding: 0 10px 0 10px;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
+  color: #eee;
+}
+
+footer p{
+  float: right;
+}
+
+section#barra-titulo{ /*Pestaña empresa*/
+  background: #37befe;
+  color: #fff;
+}
