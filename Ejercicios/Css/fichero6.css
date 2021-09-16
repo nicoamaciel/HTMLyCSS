@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+  margin-top: 40px;
+}
+
+table{
+  margin: auto;
+}
+
+
+td{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
+
+.primera, .quinta, .novena {
+  background-color: green;
+}
+
+.segunda, .cuarta, .sexta, .octava{
+  background-color: grey;
+}
+
+.tercera, .septima {
+  background-color: #0F2BA6;
+}

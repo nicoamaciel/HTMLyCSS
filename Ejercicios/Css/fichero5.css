@@ -1,0 +1,21 @@
+/*Estilos de modelo de caja*/
+body{
+  background: #6373BA;
+}
+
+.linea1{
+  border: 5px solid green;
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.linea2{
+  border: 8px dotted black;
+  width: 75%;
+  text-align: right;
+  font-size: 20px;
+}

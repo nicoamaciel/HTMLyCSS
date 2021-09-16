@@ -1,0 +1,20 @@
+
+body{
+  background: #6373BA;
+}
+
+h1{
+  font-family: fantasy;/*Tipo de fuente*/
+  font-style: italic; /*estilo*/
+  font-size: 50px; /*Tamaño de texto*/
+  text-align: center; /*Alinear texto*/
+  text-decoration: underline;/*Subrayado*/
+}
+
+p{
+  font-weight: bolder;
+}
+
+.parrafo2{
+  font-weight: lighter;
+}

@@ -1,0 +1,10 @@
+/*Ficjero de estilos CSS*/
+
+h1, p, ol{
+  color:white;
+  padding-left: 500px;
+}
+
+body{
+  background-color: #03539D;
+}

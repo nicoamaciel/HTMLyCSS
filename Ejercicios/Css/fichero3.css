@@ -1,0 +1,18 @@
+body{
+  background-color: #CDCF23;
+}
+
+.capa1{
+  color:blue;
+  background-color: grey;
+}
+
+.capa2{
+  color:white;
+  border: 4px green solid;
+}
+
+#parrafo1{
+  color:red;
+  padding: 500px;
+}

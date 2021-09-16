@@ -1,0 +1,23 @@
+body{
+  background: url(../imagenes/artic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+  color:white;
+}
+
+.capa{
+  color: white;
+  border-color: #CDCF23;
+  border-width: 2px;
+  border-style: solid;
+}
+
+span{
+  color:black;
+  background: #D5D828;
+}
