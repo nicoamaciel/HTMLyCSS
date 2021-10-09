@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #1d273b;
+    font-style: 300;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor1{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+/*Header*/
+header::before{
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: ease-in-out 0.5s;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between; /*Separacion de cada uno se van a la squina*/
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.nav .logo{
+    height: 80px;
+}
+
+.nav .logo img{
+    height: 100%;
+    vertical-align: top;
+}
+
+.enlaces-header{
+    font-weight: 300;
+}
+
+.nav .enlaces-header a{
+    color: #5D6678;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.enlaces-header a:hover{
+    color: #5499C7;
+    
+}
+
+
+.hamburguer{
+    width: 80px;
+    height: 80px;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer; /*Cada vez que pasa el cursor por ahi aparece la manito*/
+    /*transition: color 0.5s ease-in;*/
+
+}
+
+.hamburguer > i{
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.contenido-header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Centrar verticalmente*/
+}
+
+.contenido-header>img{
+    width: 550px;
+    animation: ease-in animat 1s; /*Aparece imagen al refrescar pagina dura un seg la animacion*/
+}
+
+#mitad{
+    background-color: #f2f2f2;
+}
+
+.demo{
+	width: 80%;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services>img{
+    width: 500px;
+}
+
+.box-skills{
+    margin: 30px 30px 0 0;
+}
+
+.box-skills h4{
+    font-size: 24px;
+    background: #f2f2f2;
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+}
+
+.box-skills i{
+    color: #5499C7;
+    font-size: 20px;
+}
+
+/* footer */
+footer{
+    background: #f2f2f2;
+    padding: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.partFooter{
+    width: 20%;
+    text-align: center;
+}
+
+.partFooter h4{
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter a{
+    display: block;
+    text-decoration: none;
+    color: #5D6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out; /*Tres segundos en cambiar el color con a:hover*/
+    margin-bottom: 10px;
+}
+
+.partFooter a:hover{
+    color: #5499C7;
+}
+
+.col-md-4 a:hover{
+    color: #5499C7;
+}
+
+
+.partFooter img{
+    width: 70%;/*Tamañno de imagen de pie de pagina*/
+}
+
+.social-media a{
+    font-size: 20px;
+    display: inline-block; /*Uno al lado del otro*/
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.social-media i:hover{
+    color: #5499C7;
+    
+}
